@@ -1,0 +1,16 @@
+.appBar {
+    box-shadow: none !important;
+}
+
+.title {
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.7em !important;
+}
+
+.buttonsHeader {
+    color: #FFFF !important;
+    text-transform: none !important;
+    margin: 0 1em 0 1em !important;
+}

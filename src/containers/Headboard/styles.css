@@ -1,0 +1,40 @@
+.header {
+  background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/img/sillonHeader.jpg");
+  height: 500px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gridTitle {
+  margin-top: 8em;
+}
+
+.titlePage {
+  margin: 0px !important;
+  font-family: "Roboto Slab", sans-serif !important;
+  font-size: 2.25rem !important;
+  line-height: 1.3 !important;
+  font-weight: 700 !important;
+  opacity: 1 !important;
+  text-transform: none !important;
+  vertical-align: unset !important;
+  text-decoration: none !important;
+  color: rgb(255, 255, 255) !important;
+  letter-spacing: -0.125px !important;
+}
+
+.bodyPage {
+  margin: 8px 0px 0px !important;
+  font-family: Roboto, Helvetica, Arial, sans-serif !important;
+  font-size: 1.25rem !important; 
+  font-weight: 400 !important;
+  line-height: 1.625 !important;
+  opacity: 1 !important;
+  text-transform: none !important;
+  vertical-align: unset !important;
+  text-decoration: none !important;
+  color: rgb(255, 255, 255) !important;
+  letter-spacing: -0.125px !important;
+}

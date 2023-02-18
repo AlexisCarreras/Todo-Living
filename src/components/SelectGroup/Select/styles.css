@@ -1,0 +1,18 @@
+.gridSelect {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 15% !important;
+  margin: 0 1em 0 1em;
+}
+
+.labelSelect {
+  margin: 0px 0px 8px;
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+  color: rgb(123, 128, 154) !important;
+  font-weight: 400 !important;
+}
+
+.css-74e2me-MuiInputBase-root-MuiInput-root-MuiSelect-root:before {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+}
