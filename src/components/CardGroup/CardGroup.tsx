@@ -1,8 +1,8 @@
-
+import CardComponent from "./Card/CardComponent";
 
 const CardGroup = () => {
   return (
-    <div>CardGroup</div>
+    <CardComponent />
   )
 }
 

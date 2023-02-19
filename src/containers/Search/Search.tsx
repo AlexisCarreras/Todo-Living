@@ -1,5 +1,6 @@
 import { Box, Paper, Grid } from "@mui/material";
 import CardGroup from "../../components/CardGroup/CardGroup";
+import PaginationComponent from "../../components/Pagination/Pagination";
 import SelectGroup from "../../components/SelectGroup/SelectGroup";
 import "./styles.css";
 
@@ -9,6 +10,7 @@ const Search = () => {
       <Box sx={{ flexGrow: 1 }}>
         <SelectGroup />
         <CardGroup />
+        <PaginationComponent />
       </Box>
     </Paper>
   );
