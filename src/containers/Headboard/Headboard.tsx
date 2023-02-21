@@ -1,5 +1,5 @@
 import { Box, Paper, Grid } from "@mui/material";
-import Header from "../../components/shared/header/Header";
+import NavBar from "../../components/shared/NavBar/NavBar";
 import Typography from "@mui/material/Typography";
 import "./styles.css";
 
@@ -8,8 +8,8 @@ const Headboard = () => {
     <Paper elevation={5}>
       <section className="header">
         <Box sx={{ flexGrow: 1 }}>
-          <Header />
-          <Grid
+          <NavBar />
+          <Grid 
             container
             direction="column"
             justifyContent="center"

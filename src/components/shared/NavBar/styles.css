@@ -2,6 +2,10 @@
     box-shadow: none !important;
 }
 
+.navLink {
+    text-decoration: none;
+}
+
 .title {
     color: #FFFF;
     display: flex;
