@@ -1,4 +1,4 @@
-import { Box, Paper, Grid } from "@mui/material";
+import { Box, Paper } from "@mui/material";
 import CardGroup from "../../components/CardGroup/CardGroup";
 import PaginationComponent from "../../components/Pagination/Pagination";
 import SelectGroup from "../../components/SelectGroup/SelectGroup";

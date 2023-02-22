@@ -1,0 +1,16 @@
+.inputLabelLogin {
+    font-weight: 400 !important;
+    letter-spacing: 0.00938em;
+    padding: 0px !important;
+    display: block !important;
+    transform-origin: left top !important;
+    white-space: nowrap !important;
+    transform: translate(0px, -1.5px) scale(0.75) !important;
+    transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms !important;
+    font-size: 1rem !important;
+    color: rgb(123, 128, 154) !important;
+}
+
+.inputLogin {
+  margin-bottom: 16px;
+}

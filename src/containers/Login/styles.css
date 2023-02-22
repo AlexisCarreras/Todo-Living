@@ -1,0 +1,112 @@
+.papperLogin {
+  width: 24%;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+  display: flex !important;
+  flex-direction: column !important;
+  position: relative !important;
+  overflow-wrap: break-word !important;
+  background-color: rgb(255, 255, 255) !important;
+  border: 0px solid rgba(0, 0, 0, 0.125) !important;
+  border-radius: 0.75rem !important;
+  box-shadow: rgb(0 0 0 / 10%) 0rem 0.25rem 0.375rem -0.0625rem,
+    rgb(0 0 0 / 6%) 0rem 0.125rem 0.25rem -0.0625rem !important;
+  overflow: visible !important;
+  margin-top: -485px;
+}
+
+.headerLogin {
+  margin: -24px 16px 8px;
+  padding: 24px;
+  text-align: center;
+  opacity: 1;
+  background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+  color: rgb(52, 71, 103);
+  border-radius: 0.5rem;
+  box-shadow: rgb(0 0 0 / 14%) 0rem 0.25rem 1.25rem 0rem,
+    rgb(76 175 79 / 40%) 0rem 0.4375rem 0.625rem -0.3125rem;
+}
+
+.titleLogin {
+  font-size: 1.5rem !important;
+  line-height: 1.375 !important;
+  color: rgb(255, 255, 255) !important;
+  letter-spacing: -0.125px !important;
+  font-weight: 600 !important;
+}
+
+.subtitleLogin {
+  font-size: 0.875rem !important;
+  font-weight: 300 !important;
+  line-height: 1.5 !important;
+  color: rgb(255, 255, 255) !important;
+  letter-spacing: -0.125px !important;
+}
+
+.bodyLogin {
+  padding: 32px 24px 24px;
+}
+
+/* Switch */
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked
+  + .MuiSwitch-track {
+  opacity: 1 !important;
+  background-color: rgb(66, 66, 74) !important;
+  border-color: rgb(66, 66, 74) !important;
+}
+
+.css-jsexje-MuiSwitch-thumb {
+  background-color: aliceblue !important;
+  box-shadow: rgb(0 0 0 / 10%) 0rem 0.25rem 0.375rem -0.0625rem,
+    rgb(0 0 0 / 6%) 0rem 0.125rem 0.25rem -0.0625rem !important;
+  border: 0.0625rem solid rgb(206, 212, 218) !important;
+}
+
+.css-jsexje-MuiSwitch-thumb {
+  border-color: rgb(66, 66, 74) !important;
+}
+
+/* LabelSwitch */
+.css-ahj2mt-MuiTypography-root {
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+  color: rgb(123, 128, 154) !important;
+  letter-spacing: -0.125px !important;
+  font-weight: 400 !important;
+  cursor: pointer !important;
+}
+
+.containerButtonLogin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.buttonLogin {
+  width: 100% !important;
+  margin-top: 24px !important;
+}
+
+.containerFooterLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerLogin {
+  font-size: 0.875rem !important;
+  font-weight: 300 !important;
+  line-height: 1.5 !important;
+  color: rgb(123, 128, 154) !important;
+  letter-spacing: -0.125px !important;
+  margin-bottom: 0 !important;
+}
+
+.buttonInfoLogin {
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+  color: rgb(26, 115, 232) !important;
+  letter-spacing: -0.125px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+}
