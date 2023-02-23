@@ -1,0 +1,17 @@
+.avatar {
+    margin-left: 2em;
+}
+
+.navLink {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.titleUser {
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}

@@ -2,8 +2,8 @@ import { Button } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import Login from "../../containers/Login/Login";
-import "./styles.css";
 import { NavLink } from "react-router-dom";
+import "./styles.css";
 
 const LoginPage = () => {
   return (

@@ -1,4 +1,5 @@
 import AppBar from "@mui/material/AppBar";
+import Container from "@mui/material/Container";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
@@ -13,54 +14,56 @@ import "./styles.css";
 const NavBar = () => {
   return (
     <AppBar className="appBar" color="transparent" position="static">
-      <Toolbar>
-        <Grid container spacing={0}>
-          <Grid item xs={4}>
-            <Typography
-              className="title"
-              variant="h6"
-              component="div"
-              sx={{ flexGrow: 1 }}
-            >
-              Todo Living
-            </Typography>
-          </Grid>
-          <Grid item xs={8} className="title">
-            <NavLink to="/" className="navLink">
-              <Button className="buttonsHeader" endIcon={<SearchIcon />}>
-                Buscar
-              </Button>
-            </NavLink>
-            <NavLink to="/" className="navLink">
-              <Button
-                className="buttonsHeader"
-                endIcon={<ConnectWithoutContactIcon />}
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+          <Grid container spacing={0}>
+            <Grid item xs={4}>
+              <Typography
+                className="title"
+                variant="h6"
+                component="div"
+                sx={{ flexGrow: 1 }}
               >
-                Clientes
-              </Button>
-            </NavLink>
-            <NavLink to="/" className="navLink">
-              <Button className="buttonsHeader" endIcon={<HelpIcon />}>
-                Preguntas Frecuentes
-              </Button>
-            </NavLink>
-            <NavLink to="/" className="navLink">
-              <Button className="buttonsHeader" endIcon={<EmailIcon />}>
-                Contacto
-              </Button>
-            </NavLink>
-            <Link to="/login" className="navLink">
-              <Button
-                className="buttonsHeader"
-                variant="contained"
-                color="primary"
-              >
-                Iniciar Sesión
-              </Button>
-            </Link>
+                Todo Living
+              </Typography>
+            </Grid>
+            <Grid item xs={8} className="title">
+              <NavLink to="/" className="navLink">
+                <Button className="buttonsHeader" endIcon={<SearchIcon />}>
+                  Buscar
+                </Button>
+              </NavLink>
+              <NavLink to="/" className="navLink">
+                <Button
+                  className="buttonsHeader"
+                  endIcon={<ConnectWithoutContactIcon />}
+                >
+                  Clientes
+                </Button>
+              </NavLink>
+              <NavLink to="/" className="navLink">
+                <Button className="buttonsHeader" endIcon={<HelpIcon />}>
+                  Preguntas Frecuentes
+                </Button>
+              </NavLink>
+              <NavLink to="/" className="navLink">
+                <Button className="buttonsHeader" endIcon={<EmailIcon />}>
+                  Contacto
+                </Button>
+              </NavLink>
+              <Link to="/login" className="navLink">
+                <Button
+                  className="buttonsHeader"
+                  variant="contained"
+                  color="primary"
+                >
+                  Iniciar Sesión
+                </Button>
+              </Link>
+            </Grid>
           </Grid>
-        </Grid>
-      </Toolbar>
+        </Toolbar>
+      </Container>
     </AppBar>
   );
 };
